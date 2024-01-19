@@ -6,13 +6,13 @@ This Repository is documentation of my class, please do not confuse me as a teac
 
 > **How does teaching work?**
 
-The course is taught in hybrid model which mean, there are contact lesson (on university premesis) and remote lesson(for e.g. with Zoom).
+The course is taught in hybrid model which mean, there are contact lessons (on university premesis) and remote lesson(for e.g. with Zoom).
 
-- Weekly video lectures will be available once a week online platfrom, at latest on friday each week.
-- There is Weekly exercise classes Where we work on exercises based on lectures.
+- Weekly video lectures will be available once a week on online platfrom, at latest on friday each week.
+- There is weekly exercise classes where we work on exercises based on lectures.
 - Weekly quiz or a small exercise task each week.
 
-You must watch the video lecture and attend the exercise class before attempting quizzes!
+You must watch the video lecture and attend the exercise class before attempting the quizzes!
 
 ## Material
 
