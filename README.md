@@ -107,3 +107,64 @@ You must watch the video lecture and attend the exercise class before attempting
 
 - is a csv(comma Seprated file) that is genertated using acclerometer
   without g in PHYPHOX(a mobile a collecting data)
+
+## Week3: Data-analysis with Python 
+
+### Task for week 3
+
+> Carry out GPS observations (Phyphox) where you move (outside) by walking, running, skiing or biking.
+> (Note that inside a building or a car, the data quality might be low)
+> Observe at least a few minutes since GPS is inaccurate at the start.
+> Save the data.
+> Write a Jupyter notebook which does the following;
+>
+> - Read the data (Pandas)
+> - Draw the walking path (Folium https://pypi.org/project/folium/ )
+>  Manipulate your data in Python, then visualize it in a Leaflet map via folium.
+> - Draw a line plot of velocity (from data and using Haversine), distance and number of satellites. (matplotlib.pyplot)
+>   Return a pdf file which includes graphs and a short description of how well the graphs describe your actual motion.
+>
+> https://developer.android.com/develop/sensors-and-location/sensors/sensors_overview#java
+
+### Learning outcome
+using pyphox in phone to get the gps data of myself walking and using folium to create a map and draw line plot. 
+
+> GPS_plot_folium.ipynb
+
+- importing required library using pasdas to read data fro gps.csv, importing numpy and math.
+- Defining Harvesin formula and reading data
+- calculating velocity for each cell using harvesine fromula(distance fromulae) and time diff
+- plotting using folium 
+
+## Week3: Sensors and sensor application 
+
+### Task for week 4
+
+>Perform an acceleration measurement (Acceleration without g) lasting at least half a minute, whereyou walk fairly steadily and the phone stays in the same position (in your hand, in your pocket). Count the steps accumulated during the measurement and record the amount.
+>
+>Load the data into a Jupyter Notebook.
+>
+>First, determine which component (x, y, or z) best captures the acceleration. This is often done visually by seeing which component clearly shows the oscillating signal corresponding to walking. You can also calculate the sum of the absolute value of different components [which happens in Python, for example, data.abs().sum()] and select the component with the largest sum. You can also test different components in the analysis and compare the results.
+>
+>Remove noise from the data using a low-pass filter. There is usually no need to remove the background/zero level, but make sure the average of the noise-free data is roughly around zero. You can also test different methods.
+>
+>Calculate the number of steps from noise-free data, for example by examining how often the acceleration value changes sign (the graph passes over the x-axis). This can be done with code,for example
+>```
+>steps = 0
+> for i in range(stepdata.shape[0]-1):
+>    if stepdata[i]/stepdata[i+1] < 0:
+>       steps = steps + 0.5
+> ```
+>
+>where stepdata is the acceleration data you filtered. The number of steps always increases by only half, because each step involves a back and forth cycle of acceleration, during which the zero level is passed twice (at least with the teacher's walking style).
+>
+>Return a pdf file with the following:
+>
+> - Graph of the selected acceleration component
+> - Graph of filtered data
+> - The number of steps calculated by the program and its comparison with your own calculation
+> - Your own reflection on the method and its reliability
+
+### Learning outcome
+
+- what is Noise?, Noise removal, Zero-level/background noise removable.
