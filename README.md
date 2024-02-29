@@ -138,7 +138,7 @@ using pyphox in phone to get the gps data of myself walking and using folium to 
 
 ## Week3: Sensors and sensor application 
 
-### Task for week 4
+### Task for week 3
 
 >Perform an acceleration measurement (Acceleration without g) lasting at least half a minute, whereyou walk fairly steadily and the phone stays in the same position (in your hand, in your pocket). Count the steps accumulated during the measurement and record the amount.
 >
@@ -168,3 +168,61 @@ using pyphox in phone to get the gps data of myself walking and using folium to 
 ### Learning outcome
 
 - what is Noise?, Noise removal, Zero-level/background noise removable.
+
+## Week4: Sensors and sensor application 
+
+### Task for week 4
+
+### Learning outcome
+
+
+## Week5:  
+
+### Task for week 5
+
+### Learning outcome
+
+## Week6:  
+
+### Task for week 6
+
+### Learning outcome
+
+## Week7: Physics final project
+
+### Task for week 7
+
+> Instructions for submission
+> 
+> Physics final project, the sports app demo
+> 
+> The attached files contain the acceleration and GPS coordinates detected during the walk.
+> 
+> > Acceleration
+> > 
+> > GPS
+> > 
+> The task is to write a Jupyter Notebook in Python where the following things are calculated and visualized either as a diagram or as numbers.
+> 
+> Show the following things. 
+> - A map of movement (Folium)
+> - Distance graph (increasing from zero)
+> - Velocity graph (calculated from coordinates)
+> - Acceleration graph (observed and calculated from speed)
+> - Average speed as a number
+> - Traveled distance as a number
+> - The number of steps
+>   
+> Answer the following questions:
+> - Does the acceleration calculated from the speed match the observed acceleration? What differences do you notice? What could be their cause?
+> - Is the number of steps logical?
+>
+> Write a Jupyter Notebook logically, first do the calculations and then present the results. Write your thoughts in markdown.
+> 
+> Do one thing in one cell and tell about the cell's contents in the comment line at the beginning of the cell, e.g. "In this cell, the number of steps is calculated".
+> 
+> Write the numeric printouts of the values ​​clearly with the print command, e.g. "The number of steps is 27 " etc.
+> 
+> Return an executed Notebook with the images and printouts visible.
+
+### Learning outcome
